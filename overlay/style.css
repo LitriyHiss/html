@@ -1,0 +1,35 @@
+.container{
+    position: absolute;
+    padding: 20px;
+    background-color: beige;
+    width: 400px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.author{
+    background-color: aqua;
+    cursor: pointer;
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    background-color: lightcyan;
+    width: 200px;
+    padding: 16px;
+    font-size: 0.7rem;
+    display: none;
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    grid-template-columns: 1fr 1fr;
+}
+
+input{
+    width: 60px;
+}
