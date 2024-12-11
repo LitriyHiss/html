@@ -191,6 +191,7 @@ header nav ul li a{
 }
 
 .main{
+    user-select: none;
     margin-top: 5rem;
     text-align: center;
     font-size: 5rem;
@@ -205,11 +206,11 @@ header nav ul li a{
 }
 
 .mainleftcorner{
-    transform: rotate(-5deg);
+    transform: rotate(-360deg);
 }    
 
 .mainrightcorner{
-    transform: rotate(5deg);
+    transform: rotate(360deg);
 }
 
 
